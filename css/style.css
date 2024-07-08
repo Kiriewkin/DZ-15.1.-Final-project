@@ -403,7 +403,7 @@ body {
 
 @media (min-width: 768px) {
   .wrapper {
-    width: calc(100% - 60px);
+    width: calc(100% - 120px);
   }
   .card-inner {
     grid-template-columns: repeat(2, 1fr);
@@ -418,19 +418,11 @@ body {
   }
 }
 @media (min-width: 1024px) {
-  .wrapper {
-    width: calc(100% - 60px);
-  }
   .card-inner {
     grid-template-columns: repeat(3, 1fr);
   }
   .sponsors-link {
     grid-template-columns: repeat(4, 1fr);
-  }
-}
-@media (min-width: 1440px) {
-  .wrapper {
-    width: calc(100% - 60px);
   }
 }
 @media (min-width: 1920px) {
